@@ -42,6 +42,13 @@
 #### Требования к результату
 - [ ] Прикрепите в файл README.md скриншот страницы шаблона с названием «Задание 1»
 
+- [ ] #### Решение Задание 1
+
+![image](https://github.com/killakazzak/hw-02-zabbix-02/assets/32342205/a5f4ced2-6215-4182-8ac6-ef300fa4827d)
+![image](https://github.com/killakazzak/hw-02-zabbix-02/assets/32342205/bdb44d7d-da01-4b24-8718-06b5f33c43a7)
+
+
+
  ---
 
 ### Задание 2
