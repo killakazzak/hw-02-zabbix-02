@@ -101,6 +101,8 @@ UserParameter=ram.load.percentage,free -m | awk 'NR==2{printf "%.2f", ($2-$NF)/$
 #### Требования к результату
 - [ ] Прикрепите в файл README.md скриншот дашборда с названием «Задание 4»
 
+![image](https://github.com/killakazzak/hw-02-zabbix-02/assets/32342205/da271135-2047-4fd2-a28b-420007fc3588)
+
  ---
 
 ### Задание 5* со звёздочкой
