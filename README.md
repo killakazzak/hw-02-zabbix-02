@@ -43,11 +43,14 @@
 - Прикрепите в файл README.md скриншот страницы шаблона с названием «Задание 1»
 
 #### Решение Задание 1
-
-![image](https://github.com/killakazzak/hw-02-zabbix-02/assets/32342205/a5f4ced2-6215-4182-8ac6-ef300fa4827d)
-![image](https://github.com/killakazzak/hw-02-zabbix-02/assets/32342205/bdb44d7d-da01-4b24-8718-06b5f33c43a7)
-
-
+Не нашел способа кроме как собрать информацию о загрузки CPU через UserParameter
+```
+UserParameter=ram.load.percentage,free -m | awk 'NR==2{printf "%.2f", ($2-$NF)/$2*100}'
+```
+![image](https://github.com/killakazzak/hw-02-zabbix-02/assets/32342205/3327ddd3-e2b0-4aa9-93dd-04b503cc1476)
+![image](https://github.com/killakazzak/hw-02-zabbix-02/assets/32342205/f970f9c8-537a-4c45-95a6-1b1ba2fc314a)
+![image](https://github.com/killakazzak/hw-02-zabbix-02/assets/32342205/885e8197-d50f-48d7-aeea-cfa0e028e2ef)
+![image](https://github.com/killakazzak/hw-02-zabbix-02/assets/32342205/77b0133e-03be-4473-9790-7aa17c150d5d)
 
  ---
 
