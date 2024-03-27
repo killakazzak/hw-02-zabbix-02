@@ -85,7 +85,10 @@ UserParameter=ram.load.percentage,free -m | awk 'NR==2{printf "%.2f", ($2-$NF)/$
 #### Требования к результату
 - [ ] Прикрепите в файл README.md скриншот страницы хостов, где будут видны привязки шаблонов с названиями «Задание 2-3». Хосты должны иметь зелёный статус подключения
 
- ---
+![image](https://github.com/killakazzak/hw-02-zabbix-02/assets/32342205/7e6a4799-5468-4d95-afb9-f65d811aa6a5)
+
+![image](https://github.com/killakazzak/hw-02-zabbix-02/assets/32342205/e419573f-c70c-4aae-9893-2de30d00de12)
+
 
 ### Задание 4
 Создайте свой кастомный дашборд.
