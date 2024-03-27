@@ -69,8 +69,7 @@ UserParameter=ram.load.percentage,free -m | awk 'NR==2{printf "%.2f", ($2-$NF)/$
 - Результат данного задания сдавайте вместе с заданием 3 
 ### Решение Задание 2
 
-![image](https://github.com/killakazzak/hw-02-zabbix-02/assets/32342205/981fe7ec-7958-48f3-91d0-4a84a8a48668)
-
+![image](https://github.com/killakazzak/hw-02-zabbix-02/assets/32342205/bd85f93a-084e-411d-9614-f7e3a4d77bf0)
 
  ---
 
