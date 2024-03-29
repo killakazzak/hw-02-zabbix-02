@@ -139,7 +139,25 @@ UserParameter=ram.load.percentage,free -m | awk 'NR==2{printf "%.2f", ($2-$NF)/$
 
 #### Требования к результату
 - [ ] Прикрепите в файл README.md код скрипта, а также скриншот Latest data с результатом работы скрипта на bash, чтобы был виден результат работы скрипта при отправке в него 1 и 2
- 
+
+```
+#!/bin/bash
+   if [ "$1" = "1" ]; then
+       echo "Denis Ten"
+   elif [ "$1" = "2" ]; then
+       date +"%Y-%m-%d"
+   fi
+```
+![image](https://github.com/killakazzak/hw-02-zabbix-02/assets/32342205/c8a9dc33-19d7-427a-bd73-99ad86ffa444)
+
+![image](https://github.com/killakazzak/hw-02-zabbix-02/assets/32342205/ec6d4671-5851-4a59-83e6-92142877e6a9)
+
+![image](https://github.com/killakazzak/hw-02-zabbix-02/assets/32342205/e7b2c757-5270-4734-8a17-0ed100599f75)
+
+![image](https://github.com/killakazzak/hw-02-zabbix-02/assets/32342205/49b29793-fafa-4761-aee3-e2a5376275b6)
+
+
+
  ---
 
 ### Задание 7* со звёздочкой
