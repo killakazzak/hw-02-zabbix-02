@@ -116,6 +116,20 @@ UserParameter=ram.load.percentage,free -m | awk 'NR==2{printf "%.2f", ($2-$NF)/$
 #### Требования к результату
 - [ ] Прикрепите в файл README.md скриншот карты, где видно, что триггер сработал, с названием «Задание 5» 
 
+
+### Решение Задание 5* со звёздочкой
+
+![image](https://github.com/killakazzak/hw-02-zabbix-02/assets/32342205/781a14e7-1113-4a12-b0fd-2a4c21f1bace)
+
+
+![image](https://github.com/killakazzak/hw-02-zabbix-02/assets/32342205/2d4cba69-7ed5-4e2a-a384-4b34f466aae2)
+
+Тест отключение хоста tenda-2
+
+![image](https://github.com/killakazzak/hw-02-zabbix-02/assets/32342205/267edb60-9238-4c26-9e90-d2bf0c88b054)
+
+
+
  ---
 
 ### Задание 6* со звёздочкой
