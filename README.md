@@ -153,6 +153,7 @@ vim /etc/zabbix_agentd.conf.d/userparameter_script.sh
 ```
 vim /etc/zabbix_agentd.conf
 Include=/etc/zabbix_agentd.conf.d/*.conf
+UnsafeUserParameters=1
 UserParameter=my_script[*],/etc/zabbix_agentd.conf.d/userparameter_script.sh $1
 ```
 
