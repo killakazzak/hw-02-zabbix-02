@@ -149,7 +149,7 @@ vim /etc/zabbix_agentd.conf.d/userparameter_script.sh
        date +"%Y-%m-%d"
    fi
 ```
-
+Настройка zabbix-agent
 ```
 vim /etc/zabbix_agentd.conf
 Include=/etc/zabbix_agentd.conf.d/*.conf
