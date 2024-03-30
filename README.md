@@ -187,6 +187,11 @@ UserParameter=my_script[*],/etc/zabbix_agentd.conf.d/userparameter_script.sh $1
 #### Требования к результату
 - [ ] Прикрепите в файл README.md скриншот правила обнаружения, а также скриншот страницы Discover, где видны оба хоста.*
 
+### Решение Задание 8* со звёздочкой
+
+![image](https://github.com/killakazzak/hw-02-zabbix-02/assets/32342205/a7a4c73a-1aaf-4180-916e-72ef054b6ebc)
+![image](https://github.com/killakazzak/hw-02-zabbix-02/assets/32342205/c28432be-ac40-4625-9f99-734862e3c891)
+
  ---
 
 ### Задание 9* со звёздочкой
