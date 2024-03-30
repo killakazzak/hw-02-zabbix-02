@@ -177,7 +177,31 @@ UserParameter=my_script[*],/etc/zabbix_agentd.conf.d/userparameter_script.sh $1
 - делать всё, что делал скрипт из лекции.
 
 - [ ] Прикрепите в файл README.md код скрипта в Git. Приложите в Git скриншот Latest data с результатом работы скрипта на Python, чтобы были видны результаты работы скрипта при отправке в него 1, 2, -ping, а также -simple_print.*
- 
+
+
+```
+vim /etc/zabbix_agentd.conf.d/my_python_script.py
+import sys
+import os
+import re
+if (sys.argv[1] == '-ping'): # Если -ping
+    result=os.popen("ping -c 1 " + sys.argv[2]).read() # Делаем пинг по заданному адресу
+    result=re.findall(r"time=(.*) ms", result) # Выдёргиваем из результата время
+    print(result[0]) # Выводим результат в консоль
+elif (sys.argv[1] == '-simple_print'): # Если simple_print
+    print(sys.argv[2]) # Выводим в консоль содержимое sys.arvg[2]
+else: # Во всех остальных случаях
+    print(f"unknown input: {sys.argv[1]}") # Выводим непонятый запрос в консоль
+```
+
+```
+vim /etc/zabbix_agentd.conf
+UserParameter=my_python_script[*], python3 /etc/zabbix_agentd.conf.d/my_python_script.py $1 $2
+```
+
+![image](https://github.com/killakazzak/hw-02-zabbix-02/assets/32342205/ea27b77e-00e4-4bfe-9ffb-0e3442aff0ff)
+
+
  ---
 
 ### Задание 8* со звёздочкой
