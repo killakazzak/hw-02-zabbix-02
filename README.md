@@ -189,7 +189,8 @@ UserParameter=my_script[*],/etc/zabbix_agentd.conf.d/userparameter_script.sh $1
 
 ### Решение Задание 8* со звёздочкой
 
-![image](https://github.com/killakazzak/hw-02-zabbix-02/assets/32342205/a7a4c73a-1aaf-4180-916e-72ef054b6ebc)
+![image](https://github.com/killakazzak/hw-02-zabbix-02/assets/32342205/23f1e7ff-f45c-42da-9dbc-4afa59324b21)
+
 ![image](https://github.com/killakazzak/hw-02-zabbix-02/assets/32342205/c28432be-ac40-4625-9f99-734862e3c891)
 
  ---
