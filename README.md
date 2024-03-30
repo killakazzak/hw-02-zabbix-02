@@ -192,6 +192,8 @@ UserParameter=my_script[*],/etc/zabbix_agentd.conf.d/userparameter_script.sh $1
 ![image](https://github.com/killakazzak/hw-02-zabbix-02/assets/32342205/23f1e7ff-f45c-42da-9dbc-4afa59324b21)
 
 ![image](https://github.com/killakazzak/hw-02-zabbix-02/assets/32342205/3eae3963-d3d2-4317-9473-3268fd280b55)
+![image](https://github.com/killakazzak/hw-02-zabbix-02/assets/32342205/4211fea8-e248-4cfb-91c3-423be7e7f39a)
+
 
 
  ---
